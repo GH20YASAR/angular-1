@@ -6,9 +6,11 @@ import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 
 
+
+
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent,WelcomeComponent ],
+  declarations: [ AppComponent,WelcomeComponent],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
